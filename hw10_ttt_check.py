@@ -26,12 +26,13 @@ from queue import Queue, Empty
 # 2.1 removed redundant vector_games defn.
 # 2.2 change the empty board message.
 # 2.3 improved messages for string strange boards
+# 2.4 three author limit
 
 COURSE = 'ec602'
 SEMESTER = "fall2021"
 DEBUG = False
 
-VERSION, CURL_GRADING_VER = (2,3), (3, 1)
+VERSION, CURL_GRADING_VER = (2,4), (3, 1)
 
 
 
@@ -244,7 +245,7 @@ class TTTAnalyzerTestCase(unittest.TestCase):
 
         cls.stylemax = 10
         cls.MaxPoints = cls.Points.copy()
-        cls.authorlimit = 2
+        cls.authorlimit = 3
         cls.valid_includes ={"iostream","string","array","vector","map","movedef.h","cmath"}
         cls.lintoptions=['-runtime/int','-readability/casting',
                          '-readability/alt_tokens','-build/include_subdir']

@@ -15,9 +15,9 @@ bool checkInvalid(string tttboard) {
     if (c == 'o') oCount++;
   }
   if (xCount - oCount >= 2 || oCount  > xCount) {
-    return true;
+      return true;
   } else {
-    return false;
+      return false;
   }
 }
 
@@ -37,7 +37,7 @@ int checkRows(string tttboard, char player) {
   for (int i = 0; i < 3; i++) {
     index = i * 3;
     if (tttboard.at(index) == player && tttboard.at(index + 1) == player
-        && tttboard.at(index + 2) == player) {
+    && tttboard.at(index + 2) == player) {
       winCount++;
     }
   }
@@ -49,7 +49,7 @@ int checkColumns(string tttboard, char player) {
   int winCount = 0;
   for (int i = 0; i < 3; i++) {
     if (tttboard.at(i) == player && tttboard.at(i + 3)
-        == player && tttboard.at(i + 6) == player) {
+    == player && tttboard.at(i + 6) == player) {
       winCount++;
     }
   }
@@ -62,12 +62,12 @@ int checkDiagonals(string tttboard, char player) {
   int winCount = 0;
   // top left diagonal
   if (tttboard.at(0) == player && tttboard.at(4) == player
-      && tttboard.at(8) == player) {
+  && tttboard.at(8) == player) {
     winCount++;
   }
   // top right diagonal
   if (tttboard.at(2) == player && tttboard.at(4) == player
-      && tttboard.at(6) == player) {
+  && tttboard.at(6) == player) {
     winCount++;
   }
   return winCount;
@@ -85,41 +85,41 @@ char tttresult(string tttboard) {
   // compile x wins
   temp = checkRows(tttboard, 'x');
   if (temp > 1) {
-    return 'i';
+      return 'i';
   } else {
-    xWins += temp;
+      xWins += temp;
   }
   temp = checkColumns(tttboard, 'x');
   if (temp > 1) {
-    return 'i';
+      return 'i';
   } else {
-    xWins += temp;
+      xWins += temp;
   }
   temp = checkDiagonals(tttboard, 'x');
   if (temp > 2) {
-    return 'i';
+      return 'i';
   } else {
-    xWins += temp;
+      xWins += temp;
   }
 
   // compile o  wins
   temp = checkRows(tttboard, 'o');
   if (temp > 1) {
-    return 'i';
+      return 'i';
   } else {
-    oWins += temp;
+      oWins += temp;
   }
   temp = checkColumns(tttboard, 'o');
   if (temp > 1) {
-    return 'i';
+      return 'i';
   } else {
-    oWins += temp;
+      oWins += temp;
   }
   temp = checkDiagonals(tttboard, 'o');
   if (temp > 2) {
-    return 'i';
+      return 'i';
   } else {
-    oWins += temp;
+      oWins += temp;
   }
 
   // check ordering
