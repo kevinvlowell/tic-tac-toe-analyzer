@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tic_tac_toe_analyser"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tic_tac_toe_analyser">
+				<Option output="/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/tic_tac_toe_analyser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 tic_tac_toe_analyser"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tic_tac_toe_analyser/fast">
+				<Option output="/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/tic_tac_toe_analyser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 tic_tac_toe_analyser/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/movedef.h">
+			<Option target="tic_tac_toe_analyser"/>
+		</Unit>
+		<Unit filename="/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/tttanalyzer.cpp">
+			<Option target="tic_tac_toe_analyser"/>
+		</Unit>
+		<Unit filename="/home/samir/Documents/Boston_University/Fall_2021/EC602/C++/tic-tac-toe-analyser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -4,7 +4,6 @@
 
 #include "movedef.h"
 using std::string;
-using std::vector;
 using std::cout;
 
 // Rule violation: '
@@ -123,17 +122,6 @@ char tttanalyzer(string tttboard) {
     return 'e';
 }
 
-char tttresult(vector<Move> board) {
-    return 'h';
-}
-
-vector<string> get_all_boards() {
-    return {"this is a place holder", "boo!"};
-}
-
-void ttt_tally() {
-    return;
-}
 
 /*int main(int argc, char* argv[]) {
     string board = "###xxxoo#";
@@ -143,4 +131,39 @@ void ttt_tally() {
     return 0;
 }*/
 
+
 // MAIN
+
+int main() {
+  int n;
+  std::string board;
+  Move m;
+  std::vector<Move> moves;
+  std::vector<std::string> boards;
+  std::string asktype;
+
+  while (std::cin >> asktype) {
+    if (asktype == "v") {  // test tttresult vector
+      moves.clear();
+      std::cin >> n;
+      for (int i = 0; i < n; i++) {
+        std::cin >> m.r >> m.c >> m.player;
+        moves.push_back(m);
+      }
+      std::cout << tttresult(moves) << "\n";
+    } else if (asktype == "s") {  // test tttresult string
+      std::cin >> board;
+      std::cout << tttresult(board) << "\n";
+    } else if (asktype == "a") {  // test get_all_boards
+      boards = get_all_boards();
+      for (auto b : boards) {
+        std::cout << b << "\n";
+      }
+    } else if (asktype == "t") {  // test ttt_tally
+      ttt_tally();
+    } else {
+      return 0;
+    }
+  }
+  return 0;
+}

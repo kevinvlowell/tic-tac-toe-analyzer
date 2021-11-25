@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/tic_tac_toe_analyser.dir/tttanalyzer.cpp.o -o tic_tac_toe_analyser 
