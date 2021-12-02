@@ -187,11 +187,41 @@ vector<string> get_all_boards() {
   return (all_boards);
 }
 
-
-
 void ttt_tally() {
-  return;
+  
+  vector<string> all_boards = get_all_boards();
+  int x_tally = 0, o_tally = 0, t_tally = 0, i_tally = 0, c_tally = 0;
+  char result;
+
+  for (int i = 0; i < all_boards.size(); i++) {
+    result = tttresult(all_boards.at(i));
+
+    switch (result) {
+      case 'x':
+        x_tally++;
+        break;
+      case 'o':
+        o_tally++;
+        break;
+      case 't':
+        t_tally++;
+        break;
+      case 'i':
+        i_tally++;
+        break;
+      case 'c':
+        c_tally++;
+        break;
+    }
+  }
+
+    cout << "x " << x_tally << "\n";
+    cout << "o " << o_tally << "\n";
+    cout << "t " << t_tally << "\n";
+    cout << "i " << i_tally << "\n";
+    cout << "c " << c_tally << "\n";
 }
+
 // MAIN
 int main() {
   return 0;
